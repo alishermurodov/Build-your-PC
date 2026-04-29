@@ -1,9 +1,13 @@
-import { Button } from "@/components/ui/button"
+import { Button } from "@/components/ui/button";
+import { TypographyH1 } from "@/components/ui/typography-h1";
+import { TypographyH3 } from "@/components/ui/typography-h3";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
+    <div>
+      <main>
+        <TypographyH1>Welcome to Next.js</TypographyH1>
+        <TypographyH3>Welcome to Next.js</TypographyH3>
         <Button variant="secondary">Button</Button>
       </main>
     </div>
